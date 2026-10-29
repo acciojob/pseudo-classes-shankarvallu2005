@@ -4,14 +4,15 @@
 	height : 100vh;
 	font-family : sans-serif;
 }
+.pseudo-class{
+	background-color : grey;
+	width : 50%;
+	padding : 10px;
+}
 .white{
 	background-color:white;
 	width : 50%;
 	font-size : 22px;
-}
-.grey{
-	background-color: grey;
-	width : 50%;
 }
 .pink{
 	background-color:pink;
