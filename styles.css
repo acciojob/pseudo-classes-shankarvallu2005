@@ -26,15 +26,15 @@ ul li {
   padding: 10px;
 }
 
+ul li:first-child,
+ul li:last-child {
+  font-size: 22px;
+}
+
 ul li:nth-child(odd) {
   background-color: white;
 }
 
-ul li:nth-last-child(3) {
-  background-color: pink;
-}
-
-ul li:first-child,
-ul li:last-child {
-  font-size: 22px;
+.container ul li:nth-last-child(3) {
+  background-color: pink !important;
 }
