@@ -6,13 +6,14 @@
 }
 .white{
 	background-color:white;
-	width : 300px;
+	width : 50%;
+	font-size : 22px;
 }
 .grey{
 	background-color: grey;
-	width : 300px;
+	width : 50%;
 }
 .pink{
 	background-color:pink;
-	width : 300px;
+	width : 50%;
 }
