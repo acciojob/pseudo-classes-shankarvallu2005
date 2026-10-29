@@ -35,6 +35,6 @@ ul li:nth-child(odd) {
   background-color: white;
 }
 
-.container ul li:nth-last-child(3) {
-  background-color: pink !important;
+ul li:nth-last-child(3) {
+  background-color: pink;
 }
