@@ -1,24 +1,40 @@
-.container {
+:root {
   background-color: rgb(135, 206, 235);
+}
+
+.container {
   height: 100vh;
   font-family: sans-serif;
 }
 
-.pseudo-class {
-  background-color: grey;
+.container p:first-child {
+  background-color: black;
+  color: white;
+}
+
+.container p:nth-child(2) {
+  color: initial; 
+}
+
+.container p:last-child {
+  color: red;
+}
+
+ul li {
+  background-color: gray;
   width: 50%;
   padding: 10px;
 }
 
-.pseudo-class:nth-child(odd) {
+ul li:nth-child(odd) {
   background-color: white;
 }
 
-.pseudo-class:nth-last-child(3) {
+ul li:nth-last-child(3) {
   background-color: pink;
 }
 
-.pseudo-class:first-child,
-.pseudo-class:last-child {
+ul li:first-child,
+ul li:last-child {
   font-size: 22px;
 }
