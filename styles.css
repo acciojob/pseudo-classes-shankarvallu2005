@@ -1,20 +1,24 @@
-/*  your css code here. If applicable */
-.container{
-	background-color : rgb(135, 206, 235);
-	height : 100vh;
-	font-family : sans-serif;
+.container {
+  background-color: rgb(135, 206, 235);
+  height: 100vh;
+  font-family: sans-serif;
 }
-.pseudo-class{
-	background-color : grey;
-	width : 50%;
-	padding : 10px;
+
+.pseudo-class {
+  background-color: grey;
+  width: 50%;
+  padding: 10px;
 }
-.white{
-	background-color:white;
-	width : 50%;
-	font-size : 22px;
+
+.pseudo-class:nth-child(odd) {
+  background-color: white;
 }
-.pink{
-	background-color:pink;
-	width : 50%;
+
+.pseudo-class:nth-last-child(3) {
+  background-color: pink;
+}
+
+.pseudo-class:first-child,
+.pseudo-class:last-child {
+  font-size: 22px;
 }
